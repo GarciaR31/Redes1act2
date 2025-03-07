@@ -1,0 +1,31 @@
+.navbar { background-color: #5dc1b9; padding: 1rem; text-align: center; display: flexbox;}
+.navbar a {color: white; text-decoration: none; padding: 0.5rem 1rem;}
+.navbar a:hover { background-color: #3dede5; border-radius: 5px;}
+
+body {background-color: antiquewhite;}
+.textos {text-align: center;}
+p {text-align: center;}
+.image {margin: auto; display: flex;}
+.tipos {margin: auto; width: 70px; height: auto; max-width: 100%;}
+.pokemon {margin: auto; width: 70px; height: auto; max-width: 100%;}
+td {text-align: center; vertical-align: middle;}
+.formulario {margin: auto; align-content: center;}
+
+footer {background-color: #5dc1b9; padding:1px;}
+footer p {color: white;}
+footer a {color: aquamarine;}
+
+.container table {width: 100%; overflow-x: auto; border-collapse:collapse;}
+.container {display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;}
+
+.card {background-color:rgb(243, 215, 179); border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: calc(20% - 20px); padding: 15px; text-align: center; box-sizing: border-box;}
+.card p {background-color: antiquewhite; border-radius: 8px;}
+.card h3 {margin: 10px 0; font-size: 18px;}
+
+@media (max-width:1500px) {table {font-size: 10px;} .card{font-size: 10px;} }
+@media (max-width:900px) {table {font-size: 9px;} .card {font-size: 9px;}}
+@media (max-width:800px) {table {font-size: 7px;} .card{font-size: 7px;} }
+
+@media (max-width:600px) {table{font-size: 100%;} .card {width: 100%;}}
+
